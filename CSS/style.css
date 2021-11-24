@@ -28,6 +28,7 @@ p{
 li{
     text-indent: 10px;
     text-align: justify;
+    list-style-type: none;
 }
 /*Contato*/
 #BlocoContato{
@@ -45,10 +46,6 @@ li.ListContat{
     text-indent: 0;
     padding-left: 20px;
     height: 30px;
-    list-style-type: none;
-}
-li.email{
-    list-style-type: none;
 }
 /*Bloco Links*/
 #links{
