@@ -46,6 +46,7 @@ li.ListContat{
     text-indent: 0;
     padding-left: 20px;
     height: 30px;
+
 }
 /*Bloco Links*/
 #links{
@@ -60,4 +61,8 @@ li.ListContat{
 .ImagemLink{
     height: 30px;
     width: 30px;
+    transition: transform .5s;
+}
+.ImagemLink:hover{
+    transform: scale(1.3);
 }
