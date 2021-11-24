@@ -47,6 +47,9 @@ li.ListContat{
     height: 30px;
     list-style-type: none;
 }
+li#email{
+    list-style-type: none;
+}
 /*Bloco Links*/
 #links{
     display: flex;
