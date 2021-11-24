@@ -36,6 +36,7 @@ li.ListContat{
     text-indent: 0;
     padding-left: 20px;
     height: 30px;
+    list-style-type: none;
 
 }
 /*Bloco Links*/
@@ -43,7 +44,6 @@ li.ListContat{
 #links{
     display: flex;
     align-items: center;
-    list-style-type: none;
     padding: 0;
     
 }#pLinks{
