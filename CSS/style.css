@@ -19,28 +19,32 @@ body{
 
 /*Contato*/
 
-.pContato{
-    text-indent: 0;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    
-}
-#Contato{
-padding-right: 270px;
-}
-
 #BlocoContato{
     display: flex;
     align-items: center;
     width: 100%;
 }
+p.Contato{
+    text-indent: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-right: 270px;
+    
+}
 
+li.ListContat{
+    text-indent: 0;
+    padding-left: 20px;
+    height: 30px;
+
+}
 /*Bloco Links*/
 
 #links{
-    height: 34px;
     display: flex;
     align-items: center;
+    list-style-type: none;
+    padding: 0;
     
 }#pLinks{
     text-indent: 0; 
@@ -48,13 +52,16 @@ padding-right: 270px;
 }
 .ImagemLink{
     height: 30px;
+    width: 30px;
 }
 /*Config Gerais*/
+a.Email{
+    padding: 0;
+}
 
 a{
     text-decoration: none;
-    padding-left: 10px;
-    padding-right: 10px;
+
 }
 p{
     text-indent: 20px;
@@ -63,4 +70,5 @@ p{
 li{
     text-indent: 10px;
     text-align: justify;
+
 }
