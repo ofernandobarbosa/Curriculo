@@ -53,17 +53,16 @@ li.ListContat{
 #links{
     display: flex;
     align-items: center;
-    padding: 0;
-    
-}#pLinks{
+    padding: 0;    
+}
+p Links{
     text-indent: 0; 
     margin: 0;
 }
-.ImagemLink{
+
+a img:hover{
+    transform: scale(1.3);
     height: 30px;
     width: 30px;
     transition: transform .5s;
-}
-.ImagemLink:hover{
-    transform: scale(1.3);
 }
