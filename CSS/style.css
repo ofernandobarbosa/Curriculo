@@ -29,6 +29,9 @@ li{
     text-align: justify;
     list-style-type: none;
 }
+#bullet{
+    list-style-type: disc;
+}
 /*Contato*/
 #BlocoContato{
     display: flex;
